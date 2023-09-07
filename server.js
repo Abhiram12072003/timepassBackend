@@ -17,4 +17,4 @@ mclient.connect('mongodb+srv://abhiram:6309422@cluster0.zgy92ci.mongodb.net/?ret
     .then((dbRef)=>{
         console.log('DB connection success')
     })
-    .catch(err=>console.log("database connect error:",err));
+    .catch(err=>console.log("databases connect error:",err));
